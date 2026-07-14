@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
   font-family: "Hind Siliguri", sans-serif;
 }
+header{
+  position: sticky;
+  top: 0;
+}
 header nav {
   background: linear-gradient(to right, blue, rgb(38, 38, 73));
 }
