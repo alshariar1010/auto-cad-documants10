@@ -6,11 +6,11 @@
 
 body {
   background-color: aliceblue;
-  overflow: auto;
+  overflow-x: hidden;
   font-family: "Hind Siliguri", sans-serif;
 }
 header nav {
-  background-color: blue;
+  background: linear-gradient(to right, blue, rgb(38, 38, 73));
 }
 header nav ul li a {
   text-decoration: none;
@@ -33,8 +33,40 @@ html{
 }
 section{
     max-width: 800px;
+    padding: 5px;
     margin: 0 auto;
 }
 pre{
     justify-content: center;
+}
+.important-topic li{
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+    list-style: none;
+}
+.hero-section{
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.images-hero{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 5px;
+    background: linear-gradient(to right, blue, rgb(38, 38, 73));
+}
+footer{
+    background: linear-gradient(to right, blue, rgb(38, 38, 73));
+    padding: 1rem;
+    text-align: center;
+    color: white;
 }
