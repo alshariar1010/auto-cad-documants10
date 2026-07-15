@@ -11,7 +11,202 @@
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- main section -->
+     <div class="autocad-master-guide">
+
+    <header class="guide-header">
+        <h1 class="main-title">AutoCAD Complete Guide: Setup, Standards & Shortcuts</h1>
+        <p class="subtitle">A comprehensive manual for Civil Engineering drafting (2007 to Latest Versions)</p>
+    </header>
+
+    <section class="cad-section setup-section">
+        <h2 class="section-title">১. বেসিক পেজ এবং লেয়ার সেটআপ (Page & Layer Setup)</h2>
+        
+        <div class="setup-block">
+            <h3 class="setup-title">Page Setup (পেজ সেটআপের ধাপসমূহ):</h3>
+            <ol class="step-list">
+                <li><strong>Units Setup (UN ↵):</strong> কীবোর্ডে <code>UN</code> লিখে এন্টার দাও। Length Type থেকে 'Architectural' বা 'Engineering' (ফিট/ইঞ্চির জন্য) অথবা 'Decimal' (মিলিমিটার/মিটারের জন্য) সিলেক্ট করো। Precision 0'-0" বা 0.00 রাখো।</li>
+                <li><strong>Limits (LIMITS ↵):</strong> <code>LIMITS</code> লিখে এন্টার। Lower left corner: <code>0,0</code> ↵। Upper right corner: তোমার প্রজেক্টের সাইজ অনুযায়ী (যেমন: <code>100',100'</code>) দিয়ে ↵ দাও।</li>
+                <li><strong>Zoom All (Z ↵ A ↵):</strong> লিমিট সেট করার পর পেজটিকে স্ক্রিনে ফিট করতে <code>Z</code> এন্টার, তারপর <code>A</code> এন্টার দাও।</li>
+                <li><strong>Dimension Style (D ↵):</strong> <code>D</code> লিখে এন্টার দিয়ে Modify-তে যাও। 'Primary Units' এ গিয়ে পেজ ইউনিটের মতো সেম ইউনিট সেট করো। 'Text' এবং 'Symbols and Arrows' ট্যাব থেকে টেক্সট ও অ্যারো সাইজ (যেমন: 6" বা 8") ঠিক করে <code>Set Current</code> এ ক্লিক করো।</li>
+            </ol>
+        </div>
+
+        <div class="setup-block">
+            <h3 class="setup-title">Layer Setup (লেয়ার সেটআপ):</h3>
+            <p class="description">সিভিল ড্রয়িংয়ে প্রফেশনাল কাজের জন্য লেয়ার অত্যাবশ্যক। কমান্ড: <code>LA ↵</code></p>
+            <ul class="layer-list">
+                <li>নতুন লেয়ার তৈরি করতে <strong>Alt + N</strong> চাপো অথবা 'New Layer' আইকনে ক্লিক করো।</li>
+                <li>কাজের সুবিধার্থে আলাদা লেয়ার বানাও: Wall, Window, Door, Column, Stair, Text, Dimension, Hatch।</li>
+                <li>প্রতিটি লেয়ারের জন্য আলাদা Color (যেমন: ওয়ালের জন্য সায়ান, কলামের জন্য ম্যাজেন্টা) এবং Line Weight (ওয়াল 0.25mm, কলাম 0.30mm) সেট করো।</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cad-section standards-section">
+        <h2 class="section-title">২. দেশি ও আন্তর্জাতিক স্ট্যান্ডার্ড মাপ (Standard Dimensions)</h2>
+        
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>উপাদান (Element)</th>
+                        <th>বাংলাদেশের মাপ (Imperial: Ft/In)</th>
+                        <th>আন্তর্জাতিক মাপ (Metric: mm/m)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Main Wall (বাহিরের দেয়াল)</strong></td>
+                        <td>১০" (10 Inches)</td>
+                        <td>২০০ মি.মি. - ২৫০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Partition Wall (ভিতরের দেয়াল)</strong></td>
+                        <td>৫" (5 Inches)</td>
+                        <td>১০০ মি.মি. - ১৫০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Main Door (প্রধান দরজা)</strong></td>
+                        <td>৩'-৪" বা ৩'-৬" x ৭'-০"</td>
+                        <td>১০০০ মি.মি. x ২১০০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Room Door (রুমের দরজা)</strong></td>
+                        <td>৩'-০" x ৭'-০"</td>
+                        <td>৯০০ মি.মি. x ২১০০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bath/Kitchen Door</strong></td>
+                        <td>২'-৬" x ৭'-০"</td>
+                        <td>৭৫০ মি.মি. x ২১০০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Standard Window (জানালা)</strong></td>
+                        <td>৫'-০" x ৪'-৬"</td>
+                        <td>১৫০০ মি.মি. x ১২০০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bathroom Ventilator</strong></td>
+                        <td>২'-০" x ২'-০"</td>
+                        <td>৬০০ মি.মি. x ৬০০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sunshade (সানশেড)</strong></td>
+                        <td>১'-৬" থেকে ২'-০" (দেয়াল থেকে বাহিরে)</td>
+                        <td>৪৫০ মি.মি. - ৬০০ মি.মি.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lintel Height (লিন্টেল উচ্চতা)</strong></td>
+                        <td>৭'-০" (ফ্লোর থেকে)</td>
+                        <td>২১০০ মি.মি.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="cad-section room-sizes-section">
+        <h2 class="section-title">৩. বাংলাদেশের রেসিডেনশিয়াল রুমের স্ট্যান্ডার্ড মাপ</h2>
+        <p class="description">ফ্লোর প্ল্যান করার সময় এই মাপগুলো সাধারণত ব্যবহার করা হয় (আয়তন ও ক্লায়েন্টের বাজেটের ওপর নির্ভরশীল)।</p>
+        
+        <div class="cards-container">
+            <div class="room-card">
+                <h4>Master Bedroom (মাস্টার বেডরুম)</h4>
+                <p>স্ট্যান্ডার্ড: ১২' x ১৪' (12'x14')</p>
+                <p>সর্বনিম্ন: ১২' x ১২' (12'x12')</p>
+            </div>
+            <div class="room-card">
+                <h4>Standard/Child Bedroom</h4>
+                <p>স্ট্যান্ডার্ড: ১০' x ১২' (10'x12') বা ১১' x ১২'</p>
+                <p>সর্বনিম্ন: ১০' x ১০' (10'x10')</p>
+            </div>
+            <div class="room-card">
+                <h4>Kitchen (কিচেন/রান্নাঘর)</h4>
+                <p>স্ট্যান্ডার্ড: ৭' x ৮' (7'x8') বা ৮' x ১০'</p>
+                <p>সর্বনিম্ন: ৫' x ৭' (5'x7')</p>
+            </div>
+            <div class="room-card">
+                <h4>Bathroom/Toilet (বাথরুম)</h4>
+                <p>অ্যাটাচড: ৪' x ৬' (4'x6') বা ৫' x ৭'</p>
+                <p>কমন: ৪' x ৭' (4'x7') বা ৫' x ৬'</p>
+            </div>
+            <div class="room-card">
+                <h4>Drawing/Dining (ড্রয়িং ও ডাইনিং)</h4>
+                <p>একসাথে (Combined): ১২' x ২০' বা এর বেশি</p>
+                <p>আলাদা হলে: প্রতিটির জন্য কমপক্ষে ১২' x ১৪'</p>
+            </div>
+            <div class="room-card">
+                <h4>Staircase (সিঁড়িঘর)</h4>
+                <p>প্রস্থ (Width): ৭' থেকে ৮'</p>
+                <p>দৈর্ঘ্য (Length): ১৫' থেকে ১৬'</p>
+                <p>ট্রেড (Tread): ১০", রাইজার (Riser): ৬"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cad-section shortcuts-section">
+        <h2 class="section-title">৪. অটোক্যাড সকল শর্টকাট (2007 - 2025+)</h2>
+        <p class="description">অটোক্যাডের কোর কমান্ডগুলো সব ভার্সনেই একই কাজ করে। নিচে সবচেয়ে গুরুত্বপূর্ণ শর্টকাটগুলো দেওয়া হলো:</p>
+
+        <div class="table-container">
+            <table class="data-table shortcut-table">
+                <thead>
+                    <tr>
+                        <th>Shortcut (Key)</th>
+                        <th>Command Name</th>
+                        <th>কাজ (Function)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="category-row"><td colspan="3"><strong>Draw Commands (ড্রয়িং কমান্ড)</strong></td></tr>
+                    <tr><td><strong>L</strong></td><td>Line</td><td>সোজা বা আঁকাবাঁকা রেখা আঁকতে।</td></tr>
+                    <tr><td><strong>PL</strong></td><td>Polyline</td><td>একাধিক রেখাকে একটি সিঙ্গেল অবজেক্ট হিসেবে আঁকতে।</td></tr>
+                    <tr><td><strong>C</strong></td><td>Circle</td><td>বৃত্ত আঁকতে।</td></tr>
+                    <tr><td><strong>REC</strong></td><td>Rectangle</td><td>আয়তক্ষেত্র আঁকতে।</td></tr>
+                    <tr><td><strong>A</strong></td><td>Arc</td><td>বক্ররেখা বা আর্চ আঁকতে।</td></tr>
+                    <tr><td><strong>H</strong></td><td>Hatch</td><td>দেয়াল বা ফ্লোরের ভেতর প্যাটার্ন বা কালার দিতে।</td></tr>
+                    <tr><td><strong>PO</strong></td><td>Point</td><td>নির্দিষ্ট বিন্দু বা পয়েন্ট মার্ক করতে।</td></tr>
+                    <tr><td><strong>XL</strong></td><td>Construction Line</td><td>অসীম দৈর্ঘ্যের রেফারেন্স লাইন আঁকতে (এলিভেশনে কাজে লাগে)।</td></tr>
+
+                    <tr class="category-row"><td colspan="3"><strong>Modify Commands (মডিফাই কমান্ড)</strong></td></tr>
+                    <tr><td><strong>O</strong></td><td>Offset</td><td>কোনো লাইনের নির্দিষ্ট দূরত্বে হুবহু কপি তৈরি করতে (যেমন: ওয়ালের থিকনেস)।</td></tr>
+                    <tr><td><strong>M</strong></td><td>Move</td><td>অবজেক্টকে এক জায়গা থেকে অন্য জায়গায় সরাতে।</td></tr>
+                    <tr><td><strong>CO / CP</strong></td><td>Copy</td><td>অবজেক্টের কপি করতে।</td></tr>
+                    <tr><td><strong>TR</strong></td><td>Trim</td><td>বর্ধিত বা অপ্রয়োজনীয় লাইন কাটতে (২০০৭ এ TR ↵ ↵, নতুন ভার্সনে শুধু TR ↵)।</td></tr>
+                    <tr><td><strong>EX</strong></td><td>Extend</td><td>কোনো লাইনকে সামনের বাউন্ডারি পর্যন্ত বর্ধিত করতে।</td></tr>
+                    <tr><td><strong>MI</strong></td><td>Mirror</td><td>অবজেক্টের প্রতিচ্ছবি বা উল্টো কপি তৈরি করতে।</td></tr>
+                    <tr><td><strong>RO</strong></td><td>Rotate</td><td>অবজেক্টকে যেকোনো অ্যাঙ্গেলে ঘোরাতে।</td></tr>
+                    <tr><td><strong>SC</strong></td><td>Scale</td><td>অবজেক্ট আনুপাতিক হারে বড় বা ছোট করতে।</td></tr>
+                    <tr><td><strong>F</strong></td><td>Fillet</td><td>দুটি লাইনের কোণাকে গোল বা সংযুক্ত করতে।</td></tr>
+                    <tr><td><strong>CHA</strong></td><td>Chamfer</td><td>কোণাকে তেরছা বা ঢালু করে কাটতে।</td></tr>
+                    <tr><td><strong>X</strong></td><td>Explode</td><td>ব্লক বা পলিলাইনকে ভেঙে সাধারণ লাইনে পরিণত করতে।</td></tr>
+                    <tr><td><strong>J</strong></td><td>Join</td><td>ভাঙা লাইনগুলোকে যুক্ত করে পলিলাইন বানাতে।</td></tr>
+                    <tr><td><strong>S</strong></td><td>Stretch</td><td>অবজেক্ট টেনে লম্বা বা ছোট করতে (রুমের সাইজ বাড়াতে/কমাতে)।</td></tr>
+                    <tr><td><strong>AR</strong></td><td>Array</td><td>একই অবজেক্ট নির্দিষ্ট নিয়মে বহুবার কপি করতে (যেমন: সিঁড়ির ধাপ)।</td></tr>
+
+                    <tr class="category-row"><td colspan="3"><strong>Annotation, Blocks & Utility (অন্যান্য)</strong></td></tr>
+                    <tr><td><strong>T / MT</strong></td><td>MText</td><td>ড্রয়িংয়ে টেক্সট বা লেখা যুক্ত করতে।</td></tr>
+                    <tr><td><strong>DLI</strong></td><td>Dim Linear</td><td>সোজা লাইন বা দূরত্বের মাপ (Dimension) দেখতে।</td></tr>
+                    <tr><td><strong>DAL</strong></td><td>Dim Aligned</td><td>বাঁকা লাইনের দূরত্ব পরিমাপ করতে।</td></tr>
+                    <tr><td><strong>B</strong></td><td>Block</td><td>একাধিক অবজেক্টকে একসাথে করে একটি ব্লক বানাতে (যেমন: দরজা/জানালা)।</td></tr>
+                    <tr><td><strong>I</strong></td><td>Insert</td><td>তৈরি করা ব্লক ড্রয়িংয়ে বসাতে।</td></tr>
+                    <tr><td><strong>MA</strong></td><td>Match Properties</td><td>একটি অবজেক্টের কালার/লেয়ার অন্যটিতে কপি করতে।</td></tr>
+                    <tr><td><strong>AA</strong></td><td>Area</td><td>রুম বা প্লটের ক্ষেত্রফল বের করতে।</td></tr>
+                    <tr><td><strong>DI</strong></td><td>Distance</td><td>দুটি বিন্দুর দূরত্ব চেক করতে।</td></tr>
+                    <tr><td><strong>PU</strong></td><td>Purge</td><td>অপ্রয়োজনীয় লেয়ার/ব্লক মুছে ফাইলের সাইজ কমাতে।</td></tr>
+                    <tr><td><strong>PR</strong></td><td>Properties</td><td>সিলেক্ট করা অবজেক্টের বিস্তারিত (Ctrl+1) দেখতে।</td></tr>
+
+                    <tr class="category-row"><td colspan="3"><strong>Function Keys (ফাংশন কী)</strong></td></tr>
+                    <tr><td><strong>F3</strong></td><td>OSNAP</td><td>অবজেক্ট স্ন্যাপ (End point, Mid point) অন/অফ করতে।</td></tr>
+                    <tr><td><strong>F7</strong></td><td>Grid</td><td>স্ক্রিনের পেছনের গ্রিড বা বিন্দু অন/অফ করতে।</td></tr>
+                    <tr><td><strong>F8</strong></td><td>Ortho Mode</td><td>মাউসকে সম্পূর্ণ সোজা (০°, ৯০°) মুভমেন্টে লক করতে।</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</div>
     <!-- js link and code call -->
      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
      <script src="./js/main.js"></script>

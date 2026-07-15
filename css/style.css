@@ -94,3 +94,17 @@ footer{
   list-style: none;
 
 }
+.room-card{
+  background-color: white;
+  padding: 8px;
+  margin: 5px 0;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid #8b7979;
+}
+th ,td{
+  background-color: white;
+  margin: 5px;
+  padding: 8px;
+}
