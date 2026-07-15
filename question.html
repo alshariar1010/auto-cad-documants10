@@ -1,19 +1,1865 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
     <!-- main css -->
-     <link rel="stylesheet" href="./css/style.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main contant -->
+    <div class="autocad-interview-prep">
+      <h1 class="main-title">AutoCAD Interview Questions & Answers</h1>
+
+      <div class="qa-block">
+        <h3 class="question">১. AutoCAD কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> AutoCAD (Computer-Aided Design) হলো একটি
+          কমার্শিয়াল সফটওয়্যার যা 2D এবং 3D ড্রয়িং, ডিজাইন এবং ড্রাফটিং এর জন্য
+          ব্যবহৃত হয়। এটি মূলত আর্কিটেকচার, সিভিল ইঞ্জিনিয়ারিং, মেকানিক্যাল
+          ডিজাইন এবং কনস্ট্রাকশন প্ল্যানিংয়ে ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ২. সিভিল ইঞ্জিনিয়ারিংয়ে AutoCAD এর প্রধান কাজ কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সিভিল ইঞ্জিনিয়ারিংয়ে মূলত ফ্লোর প্ল্যান,
+          এলিভেশন, সেকশন ড্রয়িং, স্ট্রাকচারাল ডিটেইলিং, লেআউট প্ল্যান এবং
+          এস্টিমেশন এর কাজের জন্য নিখুঁত মাপের ড্রয়িং তৈরি করতে অটোক্যাড ব্যবহার
+          করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩. Line এবং Polyline এর মধ্যে মূল পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>Line</em> কমান্ড দিয়ে আঁকা প্রতিটি রেখা
+          আলাদা অবজেক্ট হিসেবে কাজ করে। অন্যদিকে, <em>Polyline</em> কমান্ড দিয়ে
+          আঁকা একাধিক সংযুক্ত রেখা একটি মাত্র সিঙ্গেল অবজেক্ট (Single Object)
+          হিসেবে কাজ করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪. Ortho Mode (F8) এর কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Ortho Mode অন থাকলে মাউসের কার্সর শুধুমাত্র
+          আনুভূমিক (Horizontal) বা উল্লম্ব (Vertical) অর্থাৎ 0°, 90°, 180°, এবং
+          270° অ্যাঙ্গেলে মুভ করে। এটি একদম সোজা লাইন আঁকতে সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫. Layer কেন ব্যবহার করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> জটিল ড্রয়িংকে সুন্দরভাবে সাজাতে এবং নিয়ন্ত্রণ
+          করতে Layer ব্যবহার করা হয়। এর মাধ্যমে ড্রয়িংয়ের বিভিন্ন অংশ (যেমন:
+          ওয়াল, দরজা, জানালা, টেক্সট) আলাদা লেয়ারে রেখে সেগুলোর রঙ, লাইনের ধরন
+          পরিবর্তন করা যায় এবং প্রয়োজন অনুযায়ী কোনো নির্দিষ্ট অংশ Hide বা Lock
+          করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬. Block কী এবং এটি কেন তৈরি করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Block হলো এক বা একাধিক অবজেক্টের সমষ্টি যা
+          একটি সিঙ্গেল অবজেক্ট হিসেবে কাজ করে। বারবার ব্যবহার করতে হয় এমন জিনিস
+          (যেমন: দরজা, জানালা, ফার্নিচার) ব্লক হিসেবে সেভ করে রাখলে কাজের গতি
+          বাড়ে এবং ফাইলের সাইজ ছোট থাকে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭. Trim (TR) এবং Extend (EX) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>Trim</em> কমান্ড ব্যবহার করে কোনো
+          অবজেক্টের বর্ধিত বা অপ্রয়োজনীয় অংশ কেটে ফেলা হয় (অন্য একটি
+          ইন্টারসেক্টিং লাইনের সাপেক্ষে)। আর <em>Extend</em> কমান্ড ব্যবহার করে
+          কোনো লাইনকে তার সামনের বাউন্ডারি পর্যন্ত বর্ধিত করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮. Hatching কী এবং এর শর্টকাট কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Hatching (শর্টকাট: H) হলো ড্রয়িংয়ের কোনো আবদ্ধ
+          (Closed) অংশকে নির্দিষ্ট প্যাটার্ন, সলিড কালার বা গ্রেডিয়েন্ট দিয়ে
+          পূর্ণ করা। এটি দিয়ে সাধারণত দেয়ালের ক্রস-সেকশন, মেঝের টাইলস বা
+          ম্যাটেরিয়াল বোঝানো হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯. Purge (PU) কমান্ড কেন অত্যন্ত জরুরি?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িং ফাইলে থাকা অব্যবহৃত বা অপ্রয়োজনীয়
+          লেয়ার, ব্লক, ডাইমেনশন স্টাইল বা টেক্সট স্টাইল মুছে ফেলে ফাইলের সাইজ
+          কমাতে এবং ফাইলকে দ্রুত কাজ করার উপযোগী করতে Purge কমান্ড ব্যবহার করা
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০. Fillet এবং Chamfer এর মধ্যে পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>Fillet (F)</em> কমান্ড দুটি লাইনের মিলিত
+          কোণকে গোল বা বক্রাকার (Rounded) করে। আর <em>Chamfer (CHA)</em> কমান্ড
+          কোণগুলোকে নির্দিষ্ট মাপে তেরছা বা ঢালু (Angled/Beveled) করে দেয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১. অটোক্যাডে Scale (SC) কমান্ডের ব্যবহার কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো অবজেক্টের আকার আনুপাতিক হারে বড় বা ছোট
+          করার জন্য Scale কমান্ড ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২. UCS বলতে কী বোঝায়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> UCS এর পূর্ণরূপ হলো User Coordinate System।
+          এটি একটি মুভেবল কো-অর্ডিনেট সিস্টেম যা X, Y এবং Z অক্ষ নির্ধারণ করে।
+          3D ড্রয়িং করার সময় এর ব্যবহার সবচেয়ে বেশি হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩. বহুল ব্যবহৃত ৫টি শর্টকাট কী উল্লেখ করো।</h3>
+        <ul class="shortcut-list">
+          <li><strong>L</strong> - Line</li>
+          <li><strong>C</strong> - Circle</li>
+          <li><strong>O</strong> - Offset</li>
+          <li><strong>M</strong> - Move</li>
+          <li><strong>CO / CP</strong> - Copy</li>
+        </ul>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪. Explode (X) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো ব্লক, পলিলাইন বা হ্যাচ-এর মতো গ্রুপ বা
+          সংযুক্ত অবজেক্টকে ভেঙে আলাদা আলাদা সাধারণ লাইন বা অবজেক্টে পরিণত করতে
+          Explode কমান্ড ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৫. AutoCAD এ Page Setup বা Units কীভাবে ঠিক করতে হয়?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কীবোর্ডে <strong>UN</strong> লিখে এন্টার দিলে
+          'Drawing Units' ডায়লগ বক্স আসবে। সেখান থেকে Type (Architectural,
+          Decimal ইত্যাদি) এবং Precision সিলেক্ট করে ইঞ্চ, ফিট বা মিলিমিটার সেট
+          করতে হয়।
+        </p>
+      </div>
+    </div>
+    <div class="autocad-interview-prep-extended">
+      <div class="qa-block">
+        <h3 class="question">১৬. Offset (O) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো লাইন বা অবজেক্টের হুবহু সমান্তরাল
+          (Parallel) কপি নির্দিষ্ট দূরত্বে তৈরি করতে Offset ব্যবহার করা হয়।
+          সিভিল ড্রয়িংয়ে দেয়ালের থিকনেস (যেমন ৫ ইঞ্চি বা ১০ ইঞ্চি) বোঝাতে এটি
+          সবচেয়ে বেশি ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭. Mirror (MI) কমান্ড কখন ব্যবহার করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো অবজেক্টের প্রতিচ্ছবি বা উল্টো কপি তৈরি
+          করতে Mirror ব্যবহৃত হয়। সিমেট্রিক্যাল বা প্রতিসম ফ্লোর প্ল্যান করার
+          সময় এটি কাজের গতি অনেক বাড়িয়ে দেয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮. Array (AR) কত প্রকার এবং এর কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Array মূলত ৩ প্রকার: Rectangular, Polar এবং
+          Path। একই অবজেক্ট নির্দিষ্ট দূরত্বে এবং নিয়মে বহুবার কপি করতে এটি
+          ব্যবহৃত হয় (যেমন: অডিটোরিয়ামের চেয়ার বা সিঁড়ির ধাপ বসানো)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯. XREF (External Reference) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> XREF হলো অন্য একটি অটোক্যাড ড্রয়িং ফাইলকে
+          বর্তমান ফাইলে রেফারেন্স হিসেবে যুক্ত করা। বড় প্রজেক্টে ফাইলের সাইজ ছোট
+          রাখতে এবং একাধিক মানুষ একসাথে কাজ করতে এটি ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ২০. Model Space এবং Paper Space (Layout) এর মধ্যে পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>Model Space</em>-এ 1:1 স্কেলে মূল ড্রয়িং
+          করা হয়। আর <em>Paper Space</em> বা Layout ব্যবহার করা হয় ড্রয়িংটিকে
+          প্রিন্ট বা প্লট করার জন্য নির্দিষ্ট পেপার সাইজে সাজানোর কাজে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২১. Viewport (VPORTS) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Paper Space-এ থাকা অবস্থায় Model Space-এর
+          ড্রয়িং দেখার জন্য যে জানালা বা ফ্রেম তৈরি করা হয়, তাকে Viewport বলে।
+          এর মাধ্যমে ড্রয়িংয়ের বিভিন্ন অংশ আলাদা স্কেলে প্রিন্ট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২২. OSNAP (F3) কেন গুরুত্বপূর্ণ?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Object Snap (OSNAP) অন থাকলে ড্রয়িংয়ের সময়
+          লাইনের End point, Mid point, Center, বা Intersection পয়েন্টগুলো
+          স্বয়ংক্রিয়ভাবে স্ন্যাপ করে, যা ১০০% নির্ভুল ড্রয়িং করতে সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৩. Dimension Style (D) কেন মডিফাই করতে হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের স্কেল অনুযায়ী ডাইমেনশন টেক্সটের
+          সাইজ, অ্যারো সাইজ, প্রাইমারি ইউনিট (ফিট/ইঞ্চি) এবং লাইনের কালার ঠিক
+          করার জন্য Dimension Style মডিফাই করতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৪. BLOCK এবং WBLOCK এর মধ্যে মূল পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সাধারণ <em>BLOCK</em> শুধুমাত্র বর্তমান ড্রয়িং
+          ফাইলের ভেতরে ব্যবহার করা যায়। কিন্তু
+          <em>WBLOCK (Write Block)</em> একটি আলাদা ফাইল হিসেবে সেভ হয়, যা যেকোনো
+          অটোক্যাড ফাইলে ইনসার্ট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৫. Area (AA) কমান্ড কীভাবে কাজ করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সিভিল ইঞ্জিনিয়ারিংয়ে প্লটের বা রুমের
+          ক্ষেত্রফল (Square Feet/Meter) এবং পরিসীমা (Perimeter) বের করার জন্য
+          Area কমান্ড ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৬. Match Properties (MA) এর সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি অবজেক্টের কালার, লেয়ার, লাইনটাইপ ইত্যাদি
+          প্রোপার্টিজ হুবহু অন্য অবজেক্টে কপি করে পেস্ট করার জন্য এটি ব্যবহৃত
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৭. Boundary (BO) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ওভারল্যাপিং বা একাধিক লাইনের সমন্বয়ে তৈরি কোনো
+          আবদ্ধ জায়গাকে একটি সিঙ্গেল পলিলাইন বা রিজিওন (Region) এ পরিণত করতে
+          Boundary ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৮. Join (J) কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একই সমতলে থাকা একাধিক ভাঙা বা আলাদা লাইনকে
+          যুক্ত করে একটি সম্পূর্ণ পলিলাইন তৈরি করতে Join কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">২৯. Stretch (S) কমান্ডের ব্যবহার কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো অবজেক্টের নির্দিষ্ট অংশ সিলেক্ট করে
+          সেটিকে টেনে লম্বা বা খাটো করার জন্য Stretch ব্যবহার করা হয় (যেমন:
+          রুমের সাইজ বাড়ানো)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩০. AutoLISP কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> AutoLISP হলো অটোক্যাডের জন্য তৈরি একটি
+          প্রোগ্রামিং ভাষা। এর সাহায্যে কাস্টম কমান্ড তৈরি করে বারবার করা
+          কাজগুলো অটোমেট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩১. Align (AL) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি অবজেক্টকে অন্য একটি অবজেক্টের সাপেক্ষে
+          একই সাথে মুভ, রোটেট এবং স্কেল করে সঠিকভাবে বসানোর জন্য Align কমান্ড
+          ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩২. Etransmit কমান্ড কেন প্রফেশনাল কাজে জরুরি?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ক্লায়েন্টকে ড্রয়িং পাঠানোর সময় Etransmit
+          ব্যবহার করলে ড্রয়িংয়ের সাথে যুক্ত সব ফন্ট, প্লট স্টাইল এবং XREF ফাইল
+          একটি জিপ (ZIP) ফাইলে প্যাক হয়ে যায়, ফলে ফন্ট মিসিং এর সমস্যা হয় না।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩৩. CTB এবং STB ফাইলের পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এগুলো প্লট স্টাইল টেবিল। CTB (Color-dependent)
+          ফাইলের রঙ দিয়ে প্রিন্টের সময় লাইনের থিকনেস (Lineweight) কন্ট্রোল করা
+          হয়। আর STB (Style-dependent) লেয়ার বা অবজেক্টের স্টাইল দিয়ে প্রিন্ট
+          কন্ট্রোল করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৩৪. অটোক্যাড ফাইল করাপ্ট হলে কীভাবে রিকভার করবে?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ফাইল এরর দেখা দিলে <em>RECOVER</em> কমান্ড
+          দিয়ে ফাইলটি ওপেন করতে হয়, অথবা <em>AUDIT</em> কমান্ড চালিয়ে ফাইলে থাকা
+          এরর ফিক্স করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩৫. .bak বা .sv$ ফাইল কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> .bak হলো ফাইলের ব্যাকআপ এবং .sv$ হলো অটোসেভ
+          ফাইল। মূল .dwg ফাইল নষ্ট হয়ে গেলে এই ফাইলগুলোর এক্সটেনশন রিনেম করে
+          .dwg করলেই ড্রয়িং ফিরে পাওয়া যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩৬. Construction Line (XL) এর কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি এমন একটি লাইন যার কোনো শুরু বা শেষ নেই
+          (অসীম লাইন)। প্ল্যান থেকে এলিভেশন বা সেকশন টানার সময় প্রজেকশন লাইন
+          হিসেবে এটি খুব কাজে লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩৭. Divide (DIV) কমান্ড কীভাবে কাজ করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো লাইন বা অবজেক্টকে নির্দিষ্ট সংখ্যক সমান
+          ভাগে ভাগ করতে (পয়েন্ট বসিয়ে) Divide কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩৮. Measure (ME) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো অবজেক্টের উপর নির্দিষ্ট মাপ পর পর পয়েন্ট
+          বসিয়ে অবজেক্টটিকে ভাগ করতে Measure কমান্ড ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৩৯. Revision Cloud (REVCLOUD) কেন দেওয়া হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের কোনো অংশে সংশোধন বা পরিবর্তন করা হলে
+          ক্লায়েন্ট বা ইঞ্জিনিয়ারের দৃষ্টি আকর্ষণের জন্য সেখানে মেঘের মতো একটি
+          মার্ক করা হয়, একেই রিভিশন ক্লাউড বলে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪০. Wipeout কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের কোনো নির্দিষ্ট অংশকে ব্যাকগ্রাউন্ড
+          কালার দিয়ে ঢেকে দেওয়ার জন্য Wipeout ব্যবহার করা হয়, যাতে পেছনের
+          লাইনগুলো দেখা না যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৪১. Group (G) এবং Block (B) এর মধ্যে পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Group হলো অবজেক্টের অস্থায়ী সিলেকশন সেট, যা
+          সহজে আনগ্রুপ করা যায় এবং মেমরি কম নেয়। অন্যদিকে Block হলো স্থায়ী
+          রেফারেন্স, যা ড্রয়িংয়ে বারবার ব্যবহারের জন্য তৈরি হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪২. Design Center (Ctrl+2) এর সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অন্য যেকোনো সেভ করা অটোক্যাড ফাইল থেকে ব্লক,
+          লেয়ার, ডাইমেনশন স্টাইল ইত্যাদি খুব সহজেই বর্তমান ড্রয়িংয়ে ড্র্যাগ
+          অ্যান্ড ড্রপ করে নিয়ে আসতে Design Center ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৩. Tool Palettes (Ctrl+3) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি অটোক্যাডের একটি উইন্ডো যেখানে আগে থেকে
+          তৈরি করা অনেক ব্লক (যেমন: গাছ, গাড়ি, দরজা) এবং হ্যাচ প্যাটার্ন থাকে,
+          যা সরাসরি ড্রয়িংয়ে ব্যবহার করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৪. Properties Palette (Ctrl+1) কেন প্রয়োজন?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সিলেক্ট করা যেকোনো অবজেক্টের সব ডিটেইলস (যেমন:
+          লেয়ার, থিকনেস, এরিয়া, কো-অর্ডিনেট) একসাথে দেখতে এবং পরিবর্তন করতে
+          Properties Palette লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৫. Quick Select (QSELECT) এর ব্যবহার কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> বিশাল ড্রয়িং থেকে নির্দিষ্ট কোনো প্রোপার্টির
+          (যেমন: নির্দিষ্ট কালার বা লেয়ারের সব লাইন) অবজেক্টগুলোকে এক ক্লিকে
+          সিলেক্ট করতে QSELECT ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৬. Object Snap Tracking (F11) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি OSNAP এর পয়েন্টগুলোর উপর ভিত্তি করে
+          ট্র্যাকিং লাইন তৈরি করে, যা অন্য পয়েন্টের সাপেক্ষে নিখুঁত
+          অ্যালাইনমেন্টে ড্রয়িং করতে সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৭. Dynamic Input (F12) এর কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি অন থাকলে মাউসের কার্সরের সাথেই কমান্ড
+          প্রম্পট, কো-অর্ডিনেট এবং লেন্থ দেখা যায়, ফলে নিচে কমান্ড লাইনে না
+          তাকিয়েই মান ইনপুট দেওয়া যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৮. Spline (SPL) কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> স্মুথ বা মসৃণ বক্ররেখা (Curve) আঁকার জন্য
+          Spline ব্যবহৃত হয়। টপোগ্রাফিক্যাল ম্যাপে কন্টুর লাইন (Contour line)
+          আঁকতে এটি বেশি কাজে লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৪৯. Donut (DO) কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ভরাট করা রিং বা সলিড সার্কেল আঁকার জন্য
+          অটোক্যাডে Donut কমান্ড ব্যবহার করা হয়। এর ভেতরের এবং বাইরের ব্যাস
+          (Diameter) সেট করে দেওয়া যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৫০. Polygon (POL) কমান্ড দিয়ে সর্বোচ্চ কত বাহুর বহুভুজ আঁকা যায়?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডে Polygon কমান্ড ব্যবহার করে ৩ থেকে
+          শুরু করে সর্বোচ্চ ১০২৪ টি বাহু বিশিষ্ট বহুভুজ আঁকা সম্ভব।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫১. Break (BR) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি লাইন, বৃত্ত বা আর্ক-এর নির্দিষ্ট একটি অংশ
+          কেটে বাদ দেওয়ার জন্য Break কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫২. Break at Point কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো লাইনকে কোনো অংশ বাদ না দিয়ে শুধুমাত্র
+          একটি নির্দিষ্ট পয়েন্টে দুই টুকরো করার জন্য এই কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৩. Lengthen (LEN) কমান্ডের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> লাইন বা আর্কের দৈর্ঘ্য নির্দিষ্ট মাপে, শতকরা
+          হারে (Percentage) বা ডায়নামিক্যালি বাড়াতে বা কমাতে Lengthen কমান্ড
+          ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৪. ID কমান্ড কেন ব্যবহৃত হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ওয়ার্কস্পেসের যেকোনো নির্দিষ্ট বিন্দুর X, Y
+          এবং Z কো-অর্ডিনেট (স্থানাঙ্ক) বের করার জন্য ID কমান্ড ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৫. Distance (DI) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের যেকোনো দুটি বিন্দুর মধ্যবর্তী সরাসরি
+          দূরত্ব এবং অ্যাঙ্গেল পরিমাপ করতে DI কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৬. Center Mark কমান্ডের ব্যবহার কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> বৃত্ত বা আর্কের একেবারে কেন্দ্রবিন্দুতে একটি
+          (+) ক্রস মার্ক তৈরি করার জন্য Center Mark ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৭. Multileader (MLD) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের নির্দিষ্ট কোনো অংশকে তীর চিহ্ন
+          (Arrow) দিয়ে দেখিয়ে সেখানে টেক্সট লিখে বিস্তারিত বর্ণনা করার জন্য
+          Multileader ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৮. অটোক্যাডে Table কমান্ডের ব্যবহার কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এক্সেলের মতো রো এবং কলাম যুক্ত টেবিল তৈরি করতে
+          এটি ব্যবহৃত হয়। সিভিল ইঞ্জিনিয়ারিংয়ে ডোর-উইন্ডো শিডিউল (Schedule)
+          তৈরিতে এটি খুব কাজে লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৫৯. Block Attribute (ATTDEF) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অ্যাট্রিবিউট হলো ব্লকের সাথে যুক্ত টেক্সট ডেটা
+          যা ব্লক ইনসার্ট করার সময় পরিবর্তন করা যায় (যেমন: কলামের নাম বা টাইটেল
+          ব্লকের তথ্য)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬০. Data Extraction কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ে থাকা ব্লক, লেয়ার বা অ্যাট্রিবিউটের
+          তথ্যগুলো একসাথে একটি এক্সেল ফাইলে (BOM বা এস্টিমেট হিসেবে) বের করে
+          আনার প্রক্রিয়াকে Data Extraction বলে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬১. Isolate (ISOLATEOBJECTS) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> শুধুমাত্র সিলেক্ট করা অবজেক্টগুলোকে স্ক্রিনে
+          রেখে ড্রয়িংয়ের বাকি সব অবজেক্ট সাময়িকভাবে হাইড (Hide) করে ফেলার জন্য
+          এটি ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬২. Draw Order (DR) কেন প্রয়োজন?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একাধিক অবজেক্ট একটার ওপর আরেকটা থাকলে কোনটিকে
+          সামনে (Bring to Front) বা পেছনে (Send to Back) রাখা হবে, তা নির্ধারণ
+          করতে Draw Order ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৩. OOPS কমান্ডের বিশেষত্ব কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি অটোক্যাডের একটি দারুণ কমান্ড যা দিয়ে সবশেষ
+          মুছে ফেলা (Erase) অবজেক্টটি ফিরিয়ে আনা যায়, এমনকি এর মাঝে তুমি অন্য
+          কমান্ড ব্যবহার করলেও।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৪. OVERKILL কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের মধ্যে একই লাইনের উপর থাকা ডুপ্লিকেট
+          বা ওভারল্যাপিং লাইনগুলো ডিলিট করে ফাইলকে ক্লিন করতে OVERKILL ব্যবহৃত
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৫. PDF Import এর সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডের নতুন ভার্সনগুলোতে PDF ফাইল ইম্পোর্ট
+          করলে তা সরাসরি অটোক্যাড অবজেক্ট (লাইন, টেক্সট) হিসেবে চলে আসে, যা
+          সহজেই এডিট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৬. Linetype Scale (LTS) কেন পরিবর্তন করতে হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্যাশড (Dashed) বা সেন্টার (Center) লাইনের
+          গ্যাপগুলো ড্রয়িংয়ের স্কেল অনুযায়ী সঠিকভাবে দৃশ্যমান করার জন্য LTS এর
+          মান বাড়াতে বা কমাতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৭. Defpoints লেয়ার কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডে ডাইমেনশন দিলে স্বয়ংক্রিয়ভাবে
+          Defpoints নামের একটি লেয়ার তৈরি হয়। এই লেয়ারে যা কিছু থাকে তা কখনো
+          প্রিন্ট বা প্লট হয় না।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৮. ViewCube এর কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি ওয়ার্কস্পেসের কোণায় থাকা একটি নেভিগেশন টুল
+          যা দিয়ে 2D এবং 3D ড্রয়িংকে বিভিন্ন অ্যাঙ্গেল (Top, Front, Isometric)
+          থেকে দ্রুত দেখা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৬৯. 3D Orbit (3DO) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D অবজেক্টকে যেকোনো অ্যাঙ্গেলে বা চারদিকে
+          ঘুরিয়ে দেখার জন্য 3D Orbit কমান্ড ব্যবহার করা হয়। (Shift + Mouse
+          Middle Button চাপলেও এটি কাজ করে)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭০. Extrude (EXT) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 2D অবজেক্ট বা আবদ্ধ পলিলাইনকে উচ্চতা বা থিকনেস
+          দিয়ে 3D সলিড মডেলে রূপান্তর করতে Extrude কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭১. Revolve (REV) কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো 2D প্রোফাইলকে একটি নির্দিষ্ট অক্ষের
+          (Axis) চারদিকে ঘুরিয়ে গোলাকার 3D অবজেক্ট (যেমন: পিলার বা গম্বুজ) তৈরি
+          করতে Revolve ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭২. Sweep কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি 2D শেপকে কোনো নির্দিষ্ট লাইন বা পাথ
+          (Path) বরাবর টেনে 3D সলিড তৈরি করতে Sweep ব্যবহৃত হয় (যেমন: পাইপ বা
+          রেলিং)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭৩. Loft কমান্ড কখন ব্যবহৃত হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একাধিক ভিন্ন ভিন্ন 2D শেপের (Cross section)
+          মাঝখানে মসৃণ ট্রানজিশন তৈরি করে একটি কমপ্লেক্স 3D মডেল বানাতে Loft
+          কমান্ড লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭৪. Presspull কমান্ডের বিশেষত্ব কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি Extrude এর মতোই, তবে এটি যেকোনো বাউন্ডারি
+          এরিয়া ডিটেক্ট করে দ্রুত 3D তে রূপান্তর করতে পারে এবং 3D অবজেক্টকে এডিট
+          করতেও সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৭৫. Boolean Operations (Union, Subtract, Intersect) কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D মডেলিঙে একাধিক সলিড অবজেক্ট যুক্ত করতে
+          (Union), একটি থেকে অন্যটি কেটে বাদ দিতে (Subtract) এবং কমন অংশটুকু
+          রাখতে (Intersect) এই কমান্ডগুলো ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭৬. Visual Styles কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D মডেলকে বিভিন্ন রূপে দেখার উপায়, যেমন:
+          Wireframe (শুধু লাইন দেখা যাবে), Conceptual (ছায়াযুক্ত), বা Realistic
+          (ম্যাটেরিয়ালসহ)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭৭. Render (RR) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D মডেলে আলো, ছায়া এবং ম্যাটেরিয়াল যুক্ত করে
+          বাস্তবসম্মত (Photorealistic) ছবি তৈরি করার প্রক্রিয়াকে রেন্ডার বলে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭৮. Materials (MAT) কীভাবে যুক্ত করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> MAT কমান্ড দিলে ম্যাটেরিয়াল ব্রাউজার ওপেন হয়,
+          যেখান থেকে কাঠ, কাঁচ, কংক্রিট বা মেটালের টেক্সচার 3D অবজেক্টে
+          অ্যাপ্লাই করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৭৯. Fillet Edge কমান্ড 3D তে কীভাবে কাজ করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D সলিড অবজেক্টের ধার বা কোণাগুলোকে (Edges)
+          মসৃণ বা গোল করার জন্য Fillet Edge ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮০. Slice (SL) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো 3D সলিড মডেলকে নির্দিষ্ট একটি প্লেন বা
+          রেখা বরাবর কেটে দুই টুকরো করার জন্য Slice কমান্ড ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮১. Isoplane কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 2D প্লেনে 3D এর মতো দেখতে আইসোমেট্রিক ড্রয়িং
+          করার সময় Left, Right এবং Top প্লেন সেট করতে Isoplane ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮২. PEDIT (Polyline Edit) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সাধারণ লাইনকে পলিলাইনে রূপান্তর করা, একাধিক
+          লাইন জয়েন করা বা পলিলাইনের থিকনেস পরিবর্তন করতে PEDIT কমান্ড ব্যবহৃত
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮৩. Ray কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি এমন একটি লাইন যার শুরু আছে কিন্তু শেষ নেই।
+          এটি মূলত রেফারেন্স লাইন হিসেবে কাজ করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮৪. Point (PO) কমান্ড কেন দেওয়া হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িং স্পেসে রেফারেন্স মার্ক বা নির্দিষ্ট
+          স্থানাঙ্ক চিহ্নিত করার জন্য Point ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮৫. DDPTYPE কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Point (PO) কমান্ড দিয়ে তৈরি করা পয়েন্টগুলোর
+          স্টাইল এবং সাইজ পরিবর্তন করে দৃশ্যমান করার জন্য DDPTYPE ডায়লগ বক্স
+          ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮৬. XLINE এবং Ray এর মধ্যে পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> XLINE (Construction line) উভয় দিকে অসীম
+          পর্যন্ত বিস্তৃত থাকে, আর Ray একটি নির্দিষ্ট পয়েন্ট থেকে শুরু হয়ে
+          একদিকে অসীম পর্যন্ত বিস্তৃত থাকে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৮৭. CHAMFER কমান্ডে 'Distance' এবং 'Angle' মেথড কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 'Distance' মেথডে দুটি লাইনের দৈর্ঘ্য দিয়ে কোণা
+          কাটা হয়, আর 'Angle' মেথডে একটি দৈর্ঘ্য এবং একটি কোণ (Angle) দিয়ে কোণা
+          কাটা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৮৮. Text (DTEXT) এবং Mtext এর মধ্যে পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> DTEXT (Single Line Text) এ প্রতিটি লাইন আলাদা
+          অবজেক্ট হয়। কিন্তু Mtext (Multiline Text) একটি প্যারাগ্রাফের মতো কাজ
+          করে এবং এতে ফন্ট স্টাইলিং অপশন বেশি থাকে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৮৯. Bounding Box কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডে কোনো টেক্সট বা অবজেক্টের চারপাশে যে
+          অদৃশ্য চারকোনা সীমানা থাকে তাকে বাউন্ডিং বক্স বলে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯০. Snap (SN) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি অন থাকলে মাউসের কার্সর স্ক্রিনে ফ্রিলি মুভ
+          না করে নির্দিষ্ট দূরত্ব পর পর লাফিয়ে লাফিয়ে (Snap) মুভ করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯১. Grid (F7) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> স্ক্রিনের ব্যাকগ্রাউন্ডে গ্রাফ পেপারের মতো যে
+          জাল বা বিন্দুগুলো দেখা যায় তাকে Grid বলে। এটি ড্রয়িংয়ের রেফারেন্স
+          হিসেবে কাজ করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯২. Tolerance কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> মেকানিক্যাল বা সিভিল ড্রয়িংয়ে কোনো মাপের কতটা
+          কম-বেশি গ্রহণযোগ্য (যেমন: ±0.05), তা বোঝাতে ডাইমেনশনের সাথে Tolerance
+          ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯৩. Scale Factor কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> প্রিন্ট করার সময় ড্রয়িংয়ের আসল মাপ এবং পেপারের
+          মাপের অনুপাতকে স্কেল ফ্যাক্টর বলে (যেমন: 1/4" = 1'-0" এর স্কেল
+          ফ্যাক্টর ৪৮)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯৪. REGEN (RE) কমান্ড কেন দেওয়া হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> জুম করার পর অনেক সময় গোল সার্কেলকে বহুভুজের
+          মতো ভাঙা ভাঙা দেখায়। তখন স্ক্রিনের ডিসপ্লে কোয়ালিটি রিফ্রেশ বা
+          রিজেনারেট করতে REGEN কমান্ড দেওয়া হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯৫. PAN (P) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের ভিউপোর্ট বা স্ক্রিনকে হাত দিয়ে টেনে
+          ডানে-বামে বা উপরে-নিচে সরানোর জন্য PAN কমান্ড ব্যবহৃত হয় (মাউসের মিডল
+          বাটন চেপে ধরেও এটি করা যায়)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ৯৬. Selection Window (Blue/Green) এর পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> বাম থেকে ডানে ড্র্যাগ করলে Blue Window আসে, যা
+          অবজেক্টকে পুরোপুরি কভার করলেই সিলেক্ট হয়। আর ডান থেকে বামে ড্র্যাগ
+          করলে Green (Crossing) Window আসে, যা অবজেক্টের একটু অংশ ছুঁলেই সেটি
+          সিলেক্ট হয়ে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯৭. Tcount কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একাধিক টেক্সটকে স্বয়ংক্রিয়ভাবে সিরিয়াল নাম্বার
+          (যেমন: ১, ২, ৩...) দেওয়ার জন্য Express Tools-এর Tcount কমান্ড ব্যবহার
+          করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯৮. SuperHatch কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সাধারণ প্যাটার্নের বদলে কোনো ইমেজ (ছবি), ব্লক
+          বা Xref কে ড্রয়িংয়ের ভেতরে হ্যাচ হিসেবে ব্যবহার করার জন্য SuperHatch
+          কমান্ড লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">৯৯. OLE Object কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> OLE (Object Linking and Embedding) এর মাধ্যমে
+          অটোক্যাডের ভেতর অন্য প্রোগ্রামের ফাইল (যেমন এক্সেল শিট বা ওয়ার্ড
+          ডকুমেন্ট) ইনসার্ট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১০০. সিভিল ড্রয়িংয়ে লেয়ার (Layer) ম্যানেজমেন্ট কেন সবচেয়ে জরুরি?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সিভিল ইঞ্জিনিয়ারিংয়ে স্ট্রাকচারাল,
+          আর্কিটেকচারাল, প্লাম্বিং এবং ইলেকট্রিক্যাল—সব ডেটা একসাথে থাকতে পারে।
+          লেয়ার ঠিক না থাকলে ড্রয়িং পড়া, প্রিন্ট করা এবং এডিট করা অসম্ভব হয়ে
+          দাঁড়ায়। তাই প্রফেশনাল কাজে লেয়ার ম্যানেজমেন্ট বাধ্যতামূলক।
+        </p>
+      </div>
+    </div>
+    <div class="autocad-interview-prep-part3">
+      <div class="qa-block">
+        <h3 class="question">১০১. Dynamic Block কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ডায়নামিক ব্লক হলো সাধারণ ব্লকের একটি উন্নত
+          রূপ, যার আকার, আকৃতি বা রোটেশন ইনসার্ট করার পরও পরিবর্তন করা যায়।
+          যেমন: একটি দরজার ব্লককেই টেনে বিভিন্ন সাইজ (৩ ফুট, ৩.৫ ফুট) করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০২. XCLIP কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ে থাকা কোনো ব্লক বা External Reference
+          (Xref) এর নির্দিষ্ট কোনো অংশ কেটে (Crop করে) শুধু ততটুকুই স্ক্রিনে
+          দেখানোর জন্য XCLIP ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৩. Multiline (MLINE) কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একসাথে একাধিক সমান্তরাল লাইন (Parallel lines)
+          আঁকার জন্য MLINE ব্যবহৃত হয়। ফ্লোর প্ল্যানে দেয়াল আঁকতে এটি খুব দ্রুত
+          কাজ করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৪. LAYISO এবং LAYUNISO এর মধ্যে পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>LAYISO</em> কমান্ড দিলে সিলেক্ট করা লেয়ার
+          ছাড়া বাকি সব লেয়ার লক বা হাইড হয়ে যায়। আর <em>LAYUNISO</em> দিলে আগের
+          অবস্থায় (সব লেয়ার দৃশ্যমান) ফিরে আসে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৫. LAYMCUR (Make Current) কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের যেকোনো অবজেক্ট সিলেক্ট করে LAYMCUR
+          কমান্ড দিলে, সেই অবজেক্টের লেয়ারটি স্বয়ংক্রিয়ভাবে কারেন্ট (Current)
+          লেয়ার হিসেবে সেট হয়ে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৬. Viewres কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> স্ক্রিনে বৃত্ত বা বক্ররেখাগুলো কতটা মসৃণ
+          (Smooth) দেখাবে তা নির্ধারণ করতে Viewres কমান্ড ব্যবহৃত হয়। এর মান
+          বাড়ালে বৃত্ত আর ভাঙা ভাঙা দেখায় না।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৭. ALIASEDIT কমান্ড কেন ব্যবহৃত হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Express Tools এর এই কমান্ডটি দিয়ে অটোক্যাডের
+          ডিফল্ট শর্টকাট কি (Shortcut Keys) নিজের ইচ্ছামতো পরিবর্তন বা কাস্টমাইজ
+          করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৮. F5 কী (Key) এর কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> আইসোমেট্রিক ড্রয়িং (Isometric Drawing) করার
+          সময় Isoplane (Top, Right, Left) পরিবর্তন করতে কীবোর্ডের F5 ব্যবহার করা
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১০৯. BATTMAN কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Block Attribute Manager (BATTMAN) কমান্ড দিয়ে
+          ড্রয়িংয়ে থাকা যেকোনো ব্লকের অ্যাট্রিবিউট (টেক্সট ডেটা) এডিট, সিঙ্ক বা
+          ডিলিট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১০. ATTSYNC কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো ব্লকের অ্যাট্রিবিউটে পরিবর্তন আনার পর,
+          ড্রয়িংয়ে আগে থেকে বসানো ওই ব্লকের সব কপিতে সেই পরিবর্তন আপডেট করার
+          জন্য ATTSYNC লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১১. FILEDIA ভেরিয়েবল কী কাজ করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এর মান '1' থাকলে Open বা Save As কমান্ড দিলে
+          ডায়লগ বক্স আসে। আর '0' থাকলে ডায়লগ বক্স না এসে নিচে কমান্ড প্রম্পটে
+          ফাইলের নাম লিখতে বলে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১২. PICKBOX সাইজ কীভাবে পরিবর্তন করবে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>OP</em> (Options) লিখে এন্টার দিয়ে
+          'Selection' ট্যাবে গিয়ে Pickbox সাইজ ছোট বা বড় করা যায়। এটি কার্সরের
+          মাঝখানের চারকোনা বক্সটির সাইজ।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১৩. Crosshair সাইজ বড় করার সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Crosshair (কার্সরের প্লাস চিহ্ন) সাইজ ১০০% করে
+          দিলে এটি পুরো স্ক্রিন জুড়ে থাকে, যা ড্রয়িংয়ের সময় এক অবজেক্টের সাথে
+          অন্য অবজেক্টের অ্যালাইনমেন্ট বুঝতে সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১৪. CHAMFER কমান্ডে Polyline অপশনের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এই অপশন ব্যবহার করলে একটি পলিলাইনের সবগুলো
+          কোণা (Corners) এক ক্লিকেই নির্দিষ্ট মাপে চ্যামফার বা বাঁকা হয়ে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১৫. CHSPACE কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Layout বা Paper Space থেকে কোনো অবজেক্টকে
+          Model Space এ, অথবা Model থেকে Paper Space এ স্কেল ঠিক রেখে ট্রান্সফার
+          করতে CHSPACE ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১১৬. QDIM (Quick Dimension) কমান্ড কীভাবে কাজ করে?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একসাথে একাধিক অবজেক্ট বা লাইন সিলেক্ট করে এক
+          ক্লিকে সবার ডাইমেনশন (পরিমাপ) বসানোর জন্য QDIM ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১৭. DIMCONTINUE কমান্ডের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> প্রথম একটি ডাইমেনশন দেওয়ার পর, সেখান থেকেই
+          একটানা (Continuous) মাপ বসিয়ে যাওয়ার জন্য এই কমান্ড ব্যবহৃত হয়, যা সময়
+          বাঁচায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১৮. DIMBASELINE কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি নির্দিষ্ট বেস পয়েন্ট (Base point) থেকে
+          অন্যান্য সব পয়েন্টের দূরত্ব ধাপে ধাপে পরিমাপ করার জন্য এটি ব্যবহার করা
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১১৯. REGENAUTO কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এটি 'ON' থাকলে ড্রয়িংয়ে জুম বা প্যান করার সময়
+          অটোক্যাড স্বয়ংক্রিয়ভাবে ডিসপ্লে রিফ্রেশ বা রিজেনারেট করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১২০. XREF ফাইলের 'Attach' এবং 'Overlay' এর মধ্যে পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Xref 'Attach' করলে মূল ফাইলটি অন্য কোথাও
+          রেফারেন্স হিসেবে নিলে এটিও সাথে যায়। কিন্তু 'Overlay' করলে এটি অন্য
+          ফাইলে আর পাস হয় না (নেস্টেড হয় না)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২১. BIND কমান্ড Xref এর ক্ষেত্রে কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এক্সটার্নাল রেফারেন্স (Xref) ফাইলকে বর্তমান
+          মূল ড্রয়িং ফাইলের সাথে একটি সাধারণ ব্লক হিসেবে স্থায়ীভাবে যুক্ত
+          (Merge) করে দেয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১২২. COPYBASE (Ctrl+Shift+C) কমান্ডের সুবিধা কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো অবজেক্ট কপি করার সময় একটি নির্দিষ্ট 'বেস
+          পয়েন্ট' সিলেক্ট করে কপি করা যায়, ফলে অন্য ফাইলে পেস্ট করার সময়
+          নিখুঁতভাবে বসানো যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১২৩. PASTECLIP এবং PASTEORIG এর মধ্যে পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>PASTECLIP (Ctrl+V)</em> দিয়ে অবজেক্ট
+          যেখানে খুশি বসানো যায়। কিন্তু <em>PASTEORIG</em> দিলে প্রথম ফাইলের যে
+          কো-অর্ডিনেটে অবজেক্টটি ছিল, দ্বিতীয় ফাইলে ঠিক সেই কো-অর্ডিনেটেই পেস্ট
+          হবে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২৪. NCOPY কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো ব্লক বা Xref-কে না ভেঙে বা এক্সপ্লোড না
+          করেই তার ভেতরের নির্দিষ্ট কোনো লাইন বা অবজেক্টকে কপি করে বের করে আনার
+          জন্য NCOPY ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২৫. TEXTFIT কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> দুটি নির্দিষ্ট পয়েন্টের মাঝখানে কোনো টেক্সটকে
+          সংকুচিত বা প্রসারিত করে ঠিকভাবে বসানোর জন্য TEXTFIT ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২৬. TXT2MTXT কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> আলাদা আলাদা সিঙ্গেল লাইন টেক্সটকে (DTEXT)
+          একত্রিত করে একটি মাল্টিলাইন টেক্সট (MTEXT) এ পরিণত করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১২৭. BURST কমান্ড এবং EXPLODE এর মধ্যে পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অ্যাট্রিবিউট ব্লক <em>EXPLODE</em> করলে তার
+          ভেতরের ডেটা মুছে গিয়ে ট্যাগ নেম চলে আসে। কিন্তু <em>BURST</em> করলে
+          অ্যাট্রিবিউটের ভ্যালু বা লেখাগুলো ঠিক রেখে ব্লকটি ভেঙে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২৮. SKETCH কমান্ড কখন ব্যবহার করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> মাউস ঘুরিয়ে ফ্রি-হ্যান্ড বা নিজের হাত দিয়ে
+          এলোমেলো রেখা (যেমন: ম্যাপে নদীর সীমানা) আঁকার জন্য SKETCH কমান্ড লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১২৯. PTYP (Point Type) কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ে বসানো পয়েন্ট (Point) গুলোকে ক্রস (+),
+          গোলক বা অন্য কোনো স্টাইলে দৃশ্যমান করার জন্য PTYP কমান্ড ব্যবহার করা
+          হয় (এটি DDPTYPE এর মতোই)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩০. HATCHGENERATEBOUNDARY কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো হ্যাচ (Hatch) এর চারপাশের বাউন্ডারি লাইন
+          ডিলিট হয়ে গেলে, এই কমান্ডের সাহায্যে হ্যাচ থেকে পুনরায় বাউন্ডারি লাইন
+          তৈরি করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩১. ARRAYCLASSIC কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডের পুরোনো ভার্সনের মতো ডায়লগ বক্সের
+          মাধ্যমে Array (Rectangular বা Polar) করার জন্য ARRAYCLASSIC কমান্ড
+          ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩২. SP (Spell Check) কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ের ভেতরে লেখা সব টেক্সট বা নোটের বানান
+          ভুল আছে কি না, তা এমএস ওয়ার্ডের মতো চেক করার জন্য এটি ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩৩. FIND কমান্ড কীভাবে কাজ করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> বড় ড্রয়িং ফাইলের ভেতর থেকে নির্দিষ্ট কোনো শব্দ
+          (Text) বা ডাইমেনশন খুঁজে বের করতে এবং তা রিপ্লেস (Find & Replace) করতে
+          এটি ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩৪. OOPS এবং UNDO এর মধ্যে মূল পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>UNDO</em> সবশেষ করা যেকোনো কমান্ডকে বাতিল
+          করে। কিন্তু <em>OOPS</em> শুধুমাত্র সবশেষ মুছে ফেলা (Erased)
+          অবজেক্টটিকে ফিরিয়ে আনে, মাঝখানের অন্য কমান্ড বাতিল করে না।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩৫. RECTANG কমান্ডে Area অপশনের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> শুধু ক্ষেত্রফল (Area) এবং যেকোনো একটি বাহুর
+          দৈর্ঘ্য বা প্রস্থ জানা থাকলে, এই অপশন দিয়ে সরাসরি সঠিক মাপের
+          আয়তক্ষেত্র আঁকা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩৬. ELLIPSE কমান্ডে Isocircle অপশন কখন আসে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Isometric drafting মোড অন থাকা অবস্থায় Ellipse
+          কমান্ড নিলে Isocircle অপশন আসে, যা আইসোমেট্রিক ভিউতে বৃত্ত আঁকতে
+          সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৩৭. PLINE (Polyline) এ Width অপশন কেন ব্যবহৃত হয়?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> পলিলাইনের পুরুত্ব বা থিকনেস (যেমন: তীর চিহ্ন
+          বা মোটা দাগ আঁকতে) পরিবর্তন করার জন্য Width অপশন ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩৮. MULTIPLE কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কমান্ড বক্সে <em>MULTIPLE</em> লিখে স্পেস
+          দেওয়ার পর যেকোনো কমান্ড (যেমন: Circle) দিলে, তা বারবার সিলেক্ট না করেই
+          আনলিমিটেড বার ব্যবহার করা যায় (Esc না দেওয়া পর্যন্ত)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৩৯. CAL (Quick Calculator) কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কমান্ড লাইনেই গাণিতিক হিসাব-নিকাশ (যোগ, বিয়োগ,
+          গুণ, ভাগ) করার জন্য ইন-বিল্ট ক্যালকুলেটর চালু করতে CAL কমান্ড দেওয়া
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪০. TIME কমান্ডের মাধ্যমে কী জানা যায়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি নির্দিষ্ট ড্রয়িং ফাইল তৈরিতে মোট কত সময়
+          বা কত ঘণ্টা কাজ করা হয়েছে এবং ফাইলটি কখন তৈরি বা আপডেট হয়েছে তার হিসেব
+          TIME কমান্ড দেয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪১. SAVEALL এবং CLOSEALL কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একসাথে অনেকগুলো অটোক্যাড ফাইল ওপেন থাকলে,
+          <em>SAVEALL</em> দিলে সবগুলো একসাথে সেভ হয় এবং <em>CLOSEALL</em> দিলে
+          সবগুলো এক ক্লিকে ক্লোজ হয়ে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪২. AUDIT কমান্ড কেন জরুরি?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িং ফাইলের ভেতরে কোনো ডেটা এরর বা করাপ্টেড
+          কিছু থাকলে তা স্ক্যান করে স্বয়ংক্রিয়ভাবে ফিক্স বা সমাধান করার জন্য
+          AUDIT কমান্ড দেওয়া হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৪৩. MAPTRIM কমান্ড (AutoCAD Civil 3D/Map 3D) কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> বড় টপোগ্রাফিক্যাল ম্যাপের নির্দিষ্ট একটি
+          বাউন্ডারি বক্সের বাইরের সব লাইন এক ক্লিকে ট্রিম বা ডিলিট করার জন্য এটি
+          ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪৪. FIELD কমান্ডের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ফাইলের নাম, তারিখ বা এরিয়ার মতো ডাইনামিক
+          টেক্সট যুক্ত করতে FIELD ব্যবহার করা হয়, যা ড্রয়িং সেভ বা আপডেট করার
+          সাথে সাথে নিজে থেকেই আপডেট হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪৫. DRAWING RECOVERY MANAGER কখন কাজে লাগে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাড বা কম্পিউটার হুট করে ক্র্যাশ করলে বা
+          বন্ধ হয়ে গেলে, আনসেভ করা ফাইলগুলো রিকভার করতে এই ম্যানেজার ওপেন করতে
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪৬. IMAGEATTACH কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> জেপিজি (JPG) বা পিএনজি (PNG) ফরম্যাটের যেকোনো
+          ছবি ড্রয়িং স্পেসে ইনসার্ট বা যুক্ত করার জন্য IMAGEATTACH ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪৭. IMAGECLIP কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ে ইনসার্ট করা কোনো ইমেজের চারপাশের
+          অপ্রয়োজনীয় অংশ ক্রপ (Crop) করে কেটে ফেলার জন্য এটি ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪৮. WIPEOUT কমান্ডে Frame 'Off' কেন করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> Wipeout দিয়ে পেছনের অবজেক্ট ঢাকার পর, Wipeout
+          এর যে বর্ডার বা ফ্রেম থাকে তা যেন প্রিন্ট করার সময় দেখা না যায়, সেজন্য
+          ফ্রেম অফ করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৪৯. LISP (.lsp) ফাইল কীভাবে লোড করতে হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কীবোর্ডে <em>APPLOAD (AP)</em> লিখে এন্টার
+          দিলে একটি ডায়লগ বক্স আসবে, সেখান থেকে কাঙ্ক্ষিত LISP ফাইল সিলেক্ট করে
+          Load এ ক্লিক করতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫০. MACRO (অ্যাকশন রেকর্ডার) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একই ধারাবাহিক কমান্ড যদি বারবার ব্যবহার করতে
+          হয়, তবে সেগুলোকে অ্যাকশন রেকর্ডার দিয়ে রেকর্ড করে রাখলে এক ক্লিকেই সেই
+          কাজগুলো সম্পন্ন করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫১. REGION কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 2D তে থাকা একাধিক বদ্ধ লাইনকে (Closed loops)
+          একটিমাত্র সমতল (2D Surface) বা রিজিয়নে পরিণত করতে এটি ব্যবহৃত হয়, যা
+          3D Extrude করতে কাজে লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫২. MASSPROP কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো 3D সলিড বা 2D রিজিয়নের ভর (Mass), আয়তন
+          (Volume), সেন্ট্রয়েড (Centroid) এবং মোমেন্ট অব ইনারশিয়া বের করতে
+          MASSPROP কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৫৩. 3D MIRROR কমান্ড 2D Mirror থেকে কীভাবে আলাদা?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 2D Mirror একটি লাইনের (অক্ষ) সাপেক্ষে মিরর
+          করে। কিন্তু 3D MIRROR একটি সমতল বা প্লেনের (Plane - যেমন XY বা YZ)
+          সাপেক্ষে অবজেক্টকে মিরর করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫৪. 3D ROTATE কমান্ডের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D অবজেক্টকে X, Y এবং Z তিনটি অক্ষের যেকোনো
+          একটির সাপেক্ষে স্বাধীনভাবে ঘোরানোর জন্য 3D ROTATE (Gizmo) ব্যবহার করা
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫৫. SECTION PLANE কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D মডেলের ভেতরের অংশ কেমন তা দেখার জন্য একটি
+          কাল্পনিক তল (Plane) দিয়ে মডেলটিকে কাটার জন্য SECTION PLANE ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫৬. FLATSHOT কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> যেকোনো 3D সলিড মডেলকে বর্তমানে যে ভিউতে দেখা
+          যাচ্ছে, ঠিক সেই ভিউয়ের একটি 2D লাইন ড্রয়িং (Block) তৈরি করতে FLATSHOT
+          ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫৭. CONVERTPLY কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> পুরানো ভার্সনের হেভি পলিলাইন (Heavy polyline)
+          কে লাইটওয়েট পলিলাইনে (Lightweight polyline) রূপান্তর করে ফাইলের সাইজ
+          কমাতে এটি সাহায্য করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫৮. TORIENT (Text Orient) কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সিলেক্ট করা একাধিক টেক্সটকে একটি নির্দিষ্ট
+          লাইন বা অ্যাঙ্গেলের সাথে সমান্তরাল (Parallel) করে ঘোরানোর জন্য TORIENT
+          ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৫৯. BCOUNT কমান্ডের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ে নির্দিষ্ট একটি ব্লক (যেমন: ফ্যান বা
+          দরজা) ঠিক কতগুলো আছে, তা এক ক্লিকে গুনে বের করার জন্য Express Tools এর
+          BCOUNT কমান্ড লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৬০. OVERKILL কমান্ডে 'Ignore' অপশনগুলো কী কাজ করে?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ডুপ্লিকেট লাইন মোছার সময় তুমি যদি চাও লেয়ার বা
+          কালার ভিন্ন হলেও সেগুলো মুছে যাক, তবে ওভারকিল ডায়লগ বক্সে ওই
+          প্রপার্টিজগুলো 'Ignore' করে দিতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬১. PUBLISH কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ফাইলের মধ্যে থাকা একাধিক লেআউট (Layout)
+          পেপারকে একসাথে ব্যাচ প্রিন্ট (Batch Print) বা একটি সিঙ্গেল পিডিএফ
+          (PDF) ফাইলে রূপান্তর করতে PUBLISH ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬২. Page Setup Manager কেন প্রয়োজন?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> লেআউট পেজের সাইজ (যেমন A3, A4),
+          প্রিন্টার/প্লটার এবং প্লট স্টাইল (CTB) একবার সেট করে সেভ করে রাখার
+          জন্য Page Setup Manager লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৬৩. PLOT (Ctrl+P) কমান্ডে 'Plot Area' অপশনগুলো কী কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> প্রিন্ট করার সময় Plot Area হিসেবে সাধারণত
+          Display, Extents, Limits এবং Window অপশন থাকে। সবচেয়ে বেশি ব্যবহৃত হয়
+          'Window', যা দিয়ে নির্দিষ্ট অংশ সিলেক্ট করে প্রিন্ট করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬৪. 'Fit to Paper' অপশনের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> প্রিন্ট করার সময় ড্রয়িংয়ের স্কেল যাই হোক না
+          কেন, সেটি যেন পেপারের সাইজ অনুযায়ী ফিট হয়ে যায় তা নিশ্চিত করতে এটি
+          চেকমার্ক করা হয়। (তবে স্কেলড ড্রয়িং প্রিন্টে এটি অফ রাখতে হয়)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬৫. Viewport Scale কীভাবে লক করা যায়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> লেআউটে ভিউপোর্ট সিলেক্ট করে নিচে স্ট্যাটাস বার
+          থেকে 'Lock' আইকনে ক্লিক করলে বা Properties থেকে Display Locked 'Yes'
+          করলে স্কেল লক হয়ে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬৬. MAXACTVP ভেরিয়েবল কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি লেআউটে সর্বোচ্চ কতগুলো ভিউপোর্ট একসাথে
+          অ্যাক্টিভ বা দৃশ্যমান থাকবে তা নির্ধারণ করতে এই কমান্ড ব্যবহৃত হয়
+          (ডিফল্ট মান 64)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৬৭. LTSCALE এবং PSLTSCALE এর মধ্যে সম্পর্ক কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> LTSCALE গ্লোবালি লাইনের স্কেল ঠিক করে। আর
+          PSLTSCALE '1' করা থাকলে পেপার স্পেসে ভিউপোর্টের স্কেল যাই হোক না কেন,
+          ড্যাশড লাইনের গ্যাপ সব ভিউপোর্টে সমান দেখায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬৮. DWG to PDF.pc3 প্লটারটি কেন সবচেয়ে ভালো?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডের এই ডিফল্ট প্লটারটি দিয়ে ড্রয়িং
+          পিডিএফ করলে লেয়ারগুলো পিডিএফেও সংরক্ষিত থাকে এবং জুম করলেও ফাটে না
+          (Vector PDF হয়)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৬৯. OLEFRAME ভেরিয়েবলের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এক্সেল বা ওয়ার্ড থেকে কপি করা কোনো ফাইলের
+          ফ্রেম ড্রয়িংয়ে দেখা যাবে নাকি প্রিন্টে আসবে, তা নিয়ন্ত্রণ করতে
+          OLEFRAME এর মান (0, 1 বা 2) সেট করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭০. IMAGEFRAME ভেরিয়েবলের মান '2' দিলে কী হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> মান '2' থাকলে ইমেজের বর্ডার বা ফ্রেম স্ক্রিনে
+          দেখা যায় এবং এডিট করা যায়, কিন্তু প্লট বা প্রিন্ট করার সময় ওই বর্ডারটি
+          আসে না।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭১. UCSICON কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> স্ক্রিনের কোণায় থাকা X, Y, Z অক্ষ নির্দেশক
+          আইকনটিকে লুকানোর (Off) জন্য বা স্ক্রিনের নির্দিষ্ট জায়গায় আটকে
+          (Noorigin) রাখার জন্য এই কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭২. PLAN কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D ভিউ বা এলোমেলো অ্যাঙ্গেল থেকে ড্রয়িংকে
+          সরাসরি টপ ভিউতে (Top View - X এবং Y অক্ষ বরাবর) নিয়ে আসার জন্য PLAN
+          কমান্ড দিয়ে এন্টার দিতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭৩. 3D তে SUBTRACT কমান্ড কীভাবে কাজ করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> প্রথমে যে সলিডটি রাখতে চাই সেটি সিলেক্ট করে
+          এন্টার দিতে হয়, এরপর যে সলিডটি কেটে বাদ দিতে চাই সেটি সিলেক্ট করে
+          এন্টার দিলে সাবট্র্যাক্ট হয়ে যায় (যেমন: দেয়াল কেটে জানালা তৈরি)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭৪. UNION কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একাধিক আলাদা 3D সলিড অবজেক্টকে একত্রে জোড়া
+          লাগিয়ে একটি সিঙ্গেল (Single) 3D মডেলে পরিণত করতে UNION ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭৫. INTERFERE কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> দুটি 3D সলিড অবজেক্ট একে অপরের ভেতর ঢুকে গেছে
+          কি না (Clash detection), তা চেক করার জন্য INTERFERE কমান্ড ব্যবহার করা
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭৬. IMPRINT কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো 3D সলিডের পৃষ্ঠতলের (Face) উপর 2D লাইন বা
+          অবজেক্টের ছাপ ফেলার জন্য IMPRINT ব্যবহৃত হয়, যা পরে Presspull করতে
+          কাজে লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭৭. 3D ALIGN কমান্ড কেন জরুরি?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 3D স্পেসে একটি সলিড অবজেক্টকে অন্য একটি
+          অবজেক্টের নির্দিষ্ট ফেস বা পয়েন্টের সাথে নিখুঁতভাবে বসানোর জন্য 3D
+          ALIGN ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৭৮. HELIX কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> স্প্রিং (Spring) বা প্যাঁচানো সিঁড়ির (Spiral
+          Stair) মতো 3D পাথ (Path) তৈরি করার জন্য HELIX কমান্ড ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৭৯. EXTRUDE এবং PRESSPULL এর মধ্যে মূল পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> <em>EXTRUDE</em> করতে হলে অবজেক্টকে অবশ্যই
+          বদ্ধ পলিলাইন বা রিজিয়ন হতে হয়। কিন্তু <em>PRESSPULL</em> যেকোনো আবদ্ধ
+          বাউন্ডারি এরিয়া ডিটেক্ট করে 3D করতে পারে এবং এর সাহায্যে 3D মডেলের ফেস
+          সহজেই ছোট-বড় করা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮০. THICKNESS ভেরিয়েবল কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> 2D লাইন বা শেপ আঁকার সময়ই তাতে একটি কাল্পনিক
+          3D উচ্চতা দেওয়ার জন্য এই ভেরিয়েবল ব্যবহার করা হয়, যা 3D ভিউতে গেলে
+          দেখা যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮১. TJUST (Text Justify) কমান্ড কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> স্ক্রিনে টেক্সটের পজিশন বা জায়গা ঠিক রেখে তার
+          জাস্টিফিকেশন (যেমন: Left, Center, Right) পরিবর্তন করতে TJUST ব্যবহৃত
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮২. DIMSPACE কমান্ডের সুবিধা কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একাধিক সমান্তরাল ডাইমেনশন লাইনের মাঝখানের
+          ফাঁকা জায়গা (Spacing) সমান বা নির্দিষ্ট মাপে সেট করার জন্য DIMSPACE
+          লাগে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮৩. DIMBREAK কমান্ড কখন ব্যবহার করা হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> একটি ডাইমেনশন লাইন যখন অন্য একটি ডাইমেনশন লাইন
+          বা অবজেক্টের উপর দিয়ে যায়, তখন দেখার সুবিধার জন্য ছেদবিন্দুতে ডাইমেনশন
+          লাইনটি একটু কেটে দিতে (Break) এটি ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮৪. MLEADERSTYLE কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> মাল্টিলিডারের অ্যারো সাইজ, টেক্সট সাইজ এবং
+          ফ্রেম কেমন হবে তা কাস্টমাইজ করে সেভ করে রাখার জন্য MLEADERSTYLE
+          ম্যানেজার ব্যবহৃত হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮৫. QLEADER এবং MULTILEADER এর পার্থক্য কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> QLEADER হলো পুরনো কমান্ড যেখানে টেক্সট এবং
+          অ্যারো আলাদা অবজেক্ট হিসেবে থাকে। আর MULTILEADER হলো আধুনিক কমান্ড
+          যেখানে পুরোটা একটি সিঙ্গেল অবজেক্ট হিসেবে কাজ করে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৮৬. XLINE এর 'Horizontal' এবং 'Vertical' অপশন কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> XLINE কমান্ড নেওয়ার পর 'H' দিলে শুধু আনুভূমিক
+          অসীম লাইন এবং 'V' দিলে শুধু উল্লম্ব অসীম লাইন তৈরি হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮৭. TRACE কমান্ডের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> নির্দিষ্ট পুরুত্বের (Thickness) সলিড বা ভরাট
+          লাইন আঁকার জন্য TRACE কমান্ড ব্যবহৃত হয়, যা অনেকটা Pline Width এর
+          মতোই।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৮৮. MULTILINE STYLE (MLSTYLE) কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> MLINE কমান্ড দিয়ে লাইন আঁকার আগে লাইনের
+          সংখ্যা, মাঝখানের দূরত্ব এবং কালার সেট করে রাখার জন্য MLSTYLE ব্যবহৃত
+          হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ১৮৯. TOOLPALETTES এ নিজের ব্লক কীভাবে অ্যাড করবে?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংয়ে থাকা যেকোনো ব্লক সিলেক্ট করে মাউস
+          দিয়ে ড্র্যাগ করে Tool Palettes (Ctrl+3) এর উইন্ডোতে ছেড়ে দিলেই তা
+          সেখানে সেভ হয়ে যায়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯০. GROUP কমান্ডে 'Unnamed' অপশন কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> কোনো নাম না দিয়ে দ্রুত অবজেক্টগুলো গ্রুপ করতে
+          এই অপশন ব্যবহৃত হয়। এতে কাজের গতি বাড়ে।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯১. HIGHLIGHT ভেরিয়েবলের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এর মান '1' থাকলে অবজেক্ট সিলেক্ট করার সময় সেটি
+          ড্যাশ লাইনের মতো হাইলাইট হয়। '0' থাকলে সিলেক্ট হলেও হাইলাইট হয় না।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯২. MIRRTEXT ভেরিয়েবল কখন লাগে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িং মিরর করার সময় টেক্সট যেন উল্টে (আয়নার
+          মতো) না যায়, সেজন্য MIRRTEXT এর মান '0' করে রাখতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৩. VISRETAIN ভেরিয়েবলের কাজ কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> এক্সটার্নাল রেফারেন্স (Xref) ফাইলে লেয়ারের
+          কালার বা অন/অফ স্ট্যাটাস পরিবর্তন করলে তা যেন সেভ করার পরও বর্তমান
+          ফাইলে অপরিবর্তিত থাকে, সেজন্য এর মান '1' রাখতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৪. TEXTEVAL ভেরিয়েবল কী করে?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> AutoLISP এক্সপ্রেশন টেক্সট হিসেবে দিলে সেটি
+          সরাসরি টেক্সট হিসেবে বসবে নাকি ইভালুয়েট হয়ে মান বসবে, তা TEXTEVAL দিয়ে
+          নির্ধারণ করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৫. MEASUREMENT ভেরিয়েবল কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> ড্রয়িংটি ইম্পেরিয়াল (ইঞ্চি/ফিট) নাকি মেট্রিক
+          (মিলিমিটার/মিটার) সিস্টেমে হ্যাচ বা লিনটাইপ লোড করবে, তা সেট করার জন্য
+          এর মান '0' (ইম্পেরিয়াল) বা '1' (মেট্রিক) করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৬. SAVETIME ভেরিয়েবলের মান কত রাখা উচিত?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> SAVETIME মূলত অটোসেভ (AutoSave) এর সময়সীমা।
+          কাজের নিরাপত্তার জন্য এর মান 5 বা 10 (মিনিট) রাখা ভালো।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৭. STARTUP ভেরিয়েবলের মান '1' দিলে কী হয়?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাড ওপেন করার সময় বা নতুন ফাইল নেওয়ার সময়
+          ডিফল্ট টেমপ্লেট ডায়লগ বক্সটি (Create New Drawing) স্ক্রিনে আসার জন্য
+          এর মান '1' রাখতে হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৮. BLIPMODE কমান্ড কী?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> পুরোনো ভার্সনে ক্লিক করার সময় স্ক্রিনে ছোট
+          প্লাস (+) মার্ক (Blips) তৈরি হতো। এটি অফ করার জন্য BLIPMODE '0' করা
+          হতো (নতুন ভার্সনে এটি বিল্ট-ইন অফ থাকে)।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">১৯৯. SECURELOAD ভেরিয়েবল কেন গুরুত্বপূর্ণ?</h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> অটোক্যাডে ম্যালওয়্যার বা ক্ষতিকর কোনো
+          স্ক্রিপ্ট/লিস্প (.lsp) যেন স্বয়ংক্রিয়ভাবে রান হতে না পারে, তা আটকাতে
+          SECURELOAD অপশনটি ব্যবহার করা হয়।
+        </p>
+      </div>
+
+      <div class="qa-block">
+        <h3 class="question">
+          ২০০. সিভিল ইঞ্জিনিয়ারিংয়ে AutoCAD Civil 3D এবং সাধারণ AutoCAD এর মূল
+          পার্থক্য কী?
+        </h3>
+        <p class="answer">
+          <strong>উত্তর:</strong> সাধারণ অটোক্যাড মূলত বেসিক 2D/3D ড্রাফটিং এবং
+          প্ল্যানিংয়ের জন্য ব্যবহৃত হয়। কিন্তু <em>Civil 3D</em> স্পেশালাইজড
+          সফটওয়্যার, যা টপোগ্রাফিক্যাল সার্ভে, কন্টুর ম্যাপ, হাইওয়ে ডিজাইন,
+          সারফেস অ্যানালাইসিস এবং আর্থওয়ার্ক এস্টিমেশনের মতো ডাইনামিক সিভিল
+          ইঞ্জিনিয়ারিং কাজের জন্য ডেডিকেটেড।
+        </p>
+      </div>
+    </div>
+
     <!-- js link and code call -->
-     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
-     <script src="./js/main.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
